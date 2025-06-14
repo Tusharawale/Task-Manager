@@ -1,0 +1,58 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/taskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtask 1"/>
+
+        <Button
+            android:id="@+id/btnAssignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtask 2"/>
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtask 3"/>
+
+        <Button
+            android:id="@+id/btnQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subtaskContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+</LinearLayout>
+
